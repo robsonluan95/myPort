@@ -1,0 +1,28 @@
+.navbar{
+    display: flex ;
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+    justify-content:space-between;
+    align-items:center;
+
+    /* Background Transparencia */
+    background-color:rgb(0,0,0,0.5);
+    /* Borrando o fundo */
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+
+    /* */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hamburger{
+    background-color:transparent;
+}
+.menu{
+    position:absolute;
+    top:100%;
+    right:0;
+
+}
+.show

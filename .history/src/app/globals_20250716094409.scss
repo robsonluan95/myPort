@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFF;
+    --black: #000;
+
+    --black-dark: #050014;
+}
+
+button {
+    cursor: pointer;
+    border:none;
+}
+
+a,
+p,
+h1,
+h2,
+h3 {
+    color: var(--white)
+}
+
+a {
+    color: var(--white);
+    text-rendering: none;
+
+}
+
+body {
+    background-image:url("/src/assets/black-prism-concept-ai-generated\ 1\ \(2\).png") ;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+    font-family: "Arial";
+    font: 400, 1rem sans-serif;
+}
+
+@media(max-width:720px) {
+    html {
+        font-size: 87.5% //14px
+    }
+}
+
+@media(max-width:1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}

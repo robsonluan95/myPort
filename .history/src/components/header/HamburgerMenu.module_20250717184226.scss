@@ -1,0 +1,104 @@
+.navbar {
+    max-width: 1080px;
+    display: flex;
+    margin: 30px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+}
+
+.navMenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    background-color: transparent;
+}
+
+.menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    z-index: 999;
+
+    li {
+        padding: 25px;
+        list-style-type: none;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.menu li {
+    margin: 5px 0;
+}
+
+/* Estilos para quando o menu estiver aberto no mobile */
+.show {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 0 0 10px 10px;
+}
+
+/* Quando a navbar estiver "open" (modo mobile com menu visível) */
+.open {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 10px 10px 0 0;
+}
+
+/* ===================== DESKTOP ===================== */
+@media (min-width: 728px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .menu {
+        position: static;
+        display: flex !important;
+        ali
+        flex-direction: row;
+        background-color: transparent !important;
+        backdrop-filter: blur(1px) !important;
+        padding: 0;
+        border-radius: 0;
+
+        li {
+            margin: 0 10px;
+            padding: 0;
+
+            a {
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .show {
+        background-color: transparent !important;
+        backdrop-filter: blur(1px) !important;
+        border-radius: 0 !important;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}

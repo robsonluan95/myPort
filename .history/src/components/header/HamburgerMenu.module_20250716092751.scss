@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+
+    /* Background Transparencia */
+    background-color: rgb(0, 0, 0, 0.5);
+    /* Borrando o fundo */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.navMenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    background-color: transparent;
+}
+
+.menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    list-style: none;
+    display: none;
+    padding: 10px;
+    margin: 0;
+    z-index: 999;
+    align-items
+
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    border-radius: 0 0 10px 10px;
+    z-index: 999;
+
+}
+
+.menu li {
+    margin: 5px 0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+}

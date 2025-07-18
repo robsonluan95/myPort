@@ -1,0 +1,19 @@
+.navbar{
+    display:flex;
+    
+    max-width:1080px;
+    background-color:argb(0,0,0,0.5);
+
+    .navMenu{
+        display:flex;
+        align-items:center;
+        justfy-content:space
+        width:100%;
+        
+    }
+
+    .menu{
+        display:none;
+    }
+
+}

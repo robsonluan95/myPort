@@ -1,0 +1,19 @@
+.navbar{
+    display:flex;
+    margin:0 auto;
+    max-width:1080px;
+    background-color:#0000006b;
+
+    .navMenu{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        width:100%;
+        
+    }
+
+    .menu{
+        display:none;
+    }
+
+}

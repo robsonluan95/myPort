@@ -1,0 +1,14 @@
+.banner{
+    display:flex;
+    margin:0 auto;
+    max-width: 1080px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    .aboutMe{
+        display:flex;
+        flex-direction: column;
+    }
+
+}

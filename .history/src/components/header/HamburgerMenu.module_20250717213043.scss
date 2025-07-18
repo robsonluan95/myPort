@@ -1,0 +1,37 @@
+.navbar {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    max-width: 1080px;
+    background-color: #0000006b;
+    backg
+    padding: 10px;
+    border-radius: 10px;
+    
+
+    .navMenu {
+
+        display: flex;
+        margin : 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+
+    }
+
+    .menu {
+        display: none;
+    }
+    .show{
+        display:flex;
+        flex-direction: column;
+        position:absolute;
+        align-items:center;
+        top:100%;
+        left:0;
+        width:100%;
+        background-color: inherit;
+    }
+
+}

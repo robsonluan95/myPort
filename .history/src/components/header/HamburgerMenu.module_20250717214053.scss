@@ -1,0 +1,52 @@
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+  max-width: 1080px;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 10;
+
+  .navMenu {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .show {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; // importante!
+    top: 60px; // ou altura real da navbar
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 999;
+    border-radius: 0 0 10px 10px;
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+  }
+}
