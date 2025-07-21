@@ -1,0 +1,10 @@
+.container{
+
+    background-color:darkslategrey;
+    height: 160px;
+    position:relative;
+    .content{
+        color:var(--white);
+        position:absolute;
+    }
+}

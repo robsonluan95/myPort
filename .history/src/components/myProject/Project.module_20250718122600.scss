@@ -1,0 +1,12 @@
+.containerProject{
+    display:flex;
+    max-width: 1080px;
+    margin:0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    .contentProject{
+        display:flex;
+        align-items:center
+    }
+}

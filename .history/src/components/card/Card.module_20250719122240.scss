@@ -1,0 +1,19 @@
+.container{
+
+    background-color:darkslategrey;
+    height: 250px;
+    width:300px;
+    position:relative;
+    .content{
+        display:flex;
+        flex-direction: column;
+        color:var(--white);
+        position:absolute;
+        top:00%;
+        width: 100%;
+        background-color: black;
+        .contentData{
+            display:flex;
+        }
+    }
+}

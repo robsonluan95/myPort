@@ -1,0 +1,17 @@
+.container{
+
+    background-color:darkslategrey;
+    height: 160px;
+    w
+    position:relative;
+    .content{
+        display:flex;
+        flex-direction: column;
+        color:var(--white);
+        position:absolute;
+        top:100%;
+        .contentData{
+            display:flex;
+        }
+    }
+}

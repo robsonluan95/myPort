@@ -1,0 +1,24 @@
+.containerProject{
+    display:flex;
+    max-width: 1080px;
+    margin:0 auto;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    .contentProject{
+        display:flex;
+        align-items:center;
+        justify-content: space-around;
+        width:100%;
+        overflow: auto hidden;
+       
+    }
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(tra);
+    border-radius:5px;
+}
