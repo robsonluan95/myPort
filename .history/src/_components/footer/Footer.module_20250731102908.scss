@@ -1,0 +1,90 @@
+.container {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #272727;
+    border-radius: 15px 15px 0px 0px;
+
+    .conectMeContent {
+        padding: 80px 0px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid rgba(112, 112, 112, 0.678);
+
+        h1 {
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+
+        button {
+            background-color: rgb(255, 255, 255, 0.20);
+            width: 150px;
+            height: 50px;
+            border-radius: 30px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            span{
+                color:white;
+                font-size: x-large;
+            }
+        }
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        padding: 80px 0px;
+        width: 90%;
+        border-bottom: 2px solid rgba(145, 140, 140, 0.678);
+
+        .contentNavigation {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            span {
+                font-size: medium;
+                font-weight: bold;
+                color: var(--orange);
+            }
+
+            .contactInfoContent {
+                margin-top: 20px;
+                font-size: small;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-row-gap: 10px;
+            }
+
+            .contentEmail{
+                display:flex;
+                align-items: center;
+                
+                background-color:var(--orange);
+                height: 30px;
+                border-radius:30px;
+                input{
+                    background-color:var(--white);
+                    width:80%;
+                    height: 100%;
+                    border-radius:30px 0px 0px 30px;
+                }
+            }
+        }
+    }
+
+    .contentData {
+        padding: 20px 0px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}

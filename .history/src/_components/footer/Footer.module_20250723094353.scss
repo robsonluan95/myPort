@@ -1,0 +1,21 @@
+.container{
+    max-width:1280px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color:#272727;
+    border-radius: 15px 15px 0px 0px;
+    .conectMeContent{
+        margin:50px;
+        width:90%;
+        display:flex;
+        justify-content:space-between;
+        border-bottom: 1px solid #707070 ;
+        button{ 
+            background-color:#8e2525;
+            padding:15px 30px;
+            border-radius:50%;
+        }
+    }
+}
