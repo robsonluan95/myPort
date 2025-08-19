@@ -54,9 +54,8 @@ export default function projetos() {
                         <p>Com dedicação e esforço, transformei a Draco Suplementos em uma plataforma completa e confiável, oferecendo aos nossos clientes a melhor experiência na busca por suplementos de qualidade. Estamos comprometidos em continuar inovando e superando as expectativas de nossos usuários.</p>
                     </div>
                 </div>
-                
+                <Footer />
             </div>
-            <Footer />
         </div>
     )
 }

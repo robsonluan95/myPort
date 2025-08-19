@@ -8,7 +8,7 @@ interface ButtonProps {
 }
 
 export default function customButton({ name, variant }: ButtonProps) {
-  const variantClass = variant === 'black' ? styles.black : styles.gradient;
+  const variantClass = variant === 'black' ? styles.black : styles.gradiant;
   return (
     < >
       <button className={`${styles.button} ${variantClass}`}>

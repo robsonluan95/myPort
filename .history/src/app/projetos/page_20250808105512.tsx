@@ -56,7 +56,6 @@ export default function projetos() {
                 </div>
                 
             </div>
-            <Footer />
         </div>
     )
 }
